@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rotina Flexa - 22/10</title>
+</head>
+<body>
+    <main>
+        <section id="card">
+            <h1>Lista de Compras</h1>
+            <form id="formCard">
+                <input type="text" id="nomeProduto" placeholder="Produto" required>
+                <input type="number" id="precoProduto" min="0.01" step="0.01" placeholder="Preço" required>
+                <input type="number" id="qtdProduto" min="1" step="1" placeholder="Quantidade" required>
+                <button type="button" id="btnAdicionarProduto">Adicionar produto</button>
+            </form>
+            <div id="produtos">
+                <h2>Produtos Cadastrados</h2>
+                <table id="tabelaProdutosCadasrados">
+                    <thead>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Preço</th>
+                            <th>Qtd</th>
+                            <th>Total</th>
+                            <th>Ações</th>
+                        </tr>
+                    </thead>
+                    <tbody id="listaProdutos">
+            
+                    </tbody>
+                </table>
+            </div>
+        </section>
+    </main>
+<script type="module" src="crud.js"></script>
+</body>
+</html>

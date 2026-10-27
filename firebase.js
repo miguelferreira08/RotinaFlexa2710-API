@@ -1,0 +1,1 @@
+export const API = "https://rotinaflexa2710-default-rtdb.firebaseio.com/produtos";

@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600&family=Nunito:wght@400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background-color: burlywood;
+    color: blue;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+
+#card{
+    display: flex;
+    width: 35vw;
+    height: 60vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    color: blue;
+    text-align: center;
+    border-radius: 12px;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 255, 0.4);
+}
+
+#formCard{
+    display: flex;
+    width: 20vw;
+    height: 40vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    color: blue;
+    text-align: center;
+    gap: 30px;
+}
+
+input{
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    border-radius: 9px;
+    color: gray;
+    background-color: burlywood;
+    border: 1px solid blue;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input::placeholder{
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+}
+
+button{
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 40px;
+    border-radius: 9px;
+    color: blue;
+    background-color: burlywood;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+    border: 1px solid blue;
+}
+
+.acoes {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.acoes button {
+    width: auto;
+    height: auto;
+    padding: 7px 12px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.acoes .btn-editar {
+    background-color: #2563eb;
+}
+
+.acoes .btn-excluir {
+    background-color: #dc2626;
+}
+
+h1{
+    font-family: 'Fredoka', sans-serif;
+}
+
+h2{
+    font-family: 'Fredoka', sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
